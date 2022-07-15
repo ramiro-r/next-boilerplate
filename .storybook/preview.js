@@ -1,7 +1,6 @@
 // @ts-check
 import { RouterContext } from 'next/dist/shared/lib/router-context'
 import * as NextImage from 'next/image'
-import { AuthProvider } from '../state/auth/AuthContext'
 import '../styles/globals.css'
 
 const BREAKPOINTS_INT = {
@@ -36,11 +35,7 @@ Object.defineProperty(NextImage, 'default', {
 })
 
 export const decorators = [
-  (Story) => (
-    <AuthProvider>
-      <Story />
-    </AuthProvider>
-  ),
+  (Story) => <Story />,
 ]
 
 export const parameters = {
