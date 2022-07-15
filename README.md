@@ -1,4 +1,4 @@
-# Valtech\_ React/Next Boilerplate
+# React/Next Boilerplate
 
 # What this boilerplate includes:
 
