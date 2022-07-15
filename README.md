@@ -1,5 +1,15 @@
 # React/Next Boilerplate
 
+# Installation
+
+`yarn create next-app --example=https://github.com/ramiro-r/next-boilerplate [your-app-name]`
+
+The husky install command is left outside the prepare command with the purpose of being able to use the boilerplate in multi-projects repos.
+
+You can easily install the available hooks doing:
+
+`npm run husky-install`
+
 # What this boilerplate includes:
 
 ## Packages and dependencies configuration:
