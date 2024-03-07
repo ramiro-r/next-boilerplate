@@ -10,10 +10,7 @@ const Home: NextPage = () => {
         <meta name="description" content="This is the React/Next boilerplate" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <ReactLogo />
-
-      <footer className="text-[#00d8ff] fixed h-14 bottom-0">Valtech_ ©</footer>
     </div>
   )
 }
